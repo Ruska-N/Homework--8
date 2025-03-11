@@ -1,0 +1,178 @@
+@media (max-width: 1439px) {
+  main {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .pattern-bg {
+    padding: 32px 32px 82.96px 32px;
+  }
+  .section-1 {
+    flex-direction: column;
+    max-width: 704px;
+  }
+  .section-1-right,
+  .section-2-left,
+  .section-3-right {
+    width: 704px;
+  }
+  .section-1-right img,
+  .section-2-left img,
+  .section-3-right img {
+    width: 100%;
+  }
+
+  .sec-2 {
+    padding: 80px 0px;
+  }
+  .section-2 {
+    flex-direction: column-reverse;
+    row-gap: 40px;
+  }
+
+  .section-3 {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .section-3-icons {
+    left: 534px;
+    bottom: 50px;
+  }
+
+  .sec-4,
+  .sec-6 {
+    padding: 80px 0;
+  }
+  .wrap img {
+    display: none;
+  }
+  .section-4-wrap {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .wrap h6 {
+    width: 600px;
+  }
+  .section-4-title {
+    text-align: left;
+    margin: 0;
+  }
+
+  .section-5-card {
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .card-1,
+  .card-2 {
+    width: 340px;
+    padding: 24px;
+  }
+  .section-5 h2 {
+    text-align: left;
+  }
+
+  .sec-6 {
+    padding: 80px 0;
+  }
+  .section-6 h2,
+  .section-6 h6 {
+    text-align: left;
+  }
+  .star-icons-6 {
+    margin: 0 0 32px 0;
+  }
+  .copy {
+    margin-top: 24px;
+  }
+  footer {
+    padding: 64px 32px 0 32px;
+  }
+}
+
+/* media */
+@media (max-width: 767px) {
+  main {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .pattern-bg {
+    padding: 24px 16px 80px 16px;
+  }
+  .section-1-left h2 {
+    font-size: 38px;
+    line-height: 120%;
+  }
+  .review-btn a {
+    font-size: 16px;
+  }
+  .persons img {
+    margin-left: -20px;
+  }
+  .section-1-right,
+  .section-2-left,
+  .section-3-right {
+    max-width: 343px;
+  }
+  .section-1-right img,
+  .section-2-left img,
+  .section-3-right img {
+    width: 100%;
+  }
+
+  .section-2-right h2,
+  .section-3-left h2,
+  .section-5 h2, .footer h2 {
+    font-size: 34px;
+  }
+  .oval::after {
+    width: 108.62px;
+    height: 46.53px;
+  }
+  .section-3-icons {
+    display: none;
+  }
+
+  .sec-4, .sec-6 {
+    padding: 64px 0;
+  }
+  .section-4 {
+    padding: 64px 16px;
+  }
+  .section-4-wrap {
+    row-gap: 32px;
+    margin-top: 32px;
+  }
+  .section-4-title {
+    font-size: 34px;
+    margin: 0;
+    width: 308px;
+  }
+  .wrap {
+    font-size: 16px;
+  }
+  .wrap h2 {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .section-5-card {
+    margin-top: 24px;
+  }
+
+  .section-6 h2 {
+    font-size: 24px;
+  }
+  .section-6 h6 {
+    font-size: 20px;
+  }
+
+  footer {
+    padding: 48px 16px 0 16px;
+  }
+  .copy {
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+}

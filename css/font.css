@@ -9,8 +9,7 @@ h1 {
   font-family: "Martian Mono";
   font-size: 62px;
   font-weight: 700;
-  line-height: 74.4px;
-  letter-spacing: -2px;
+  line-height: 120%;
   background: var(--gold-linear);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -39,7 +38,6 @@ h1 {
   font-size: 14px;
   line-height: 16.8px;
   letter-spacing: -1px;
-  text-align: center;
   color: #385159;
 }
 
@@ -78,6 +76,7 @@ h1 {
 }
 strong {
   font-weight: bold;
+  color: #385159;
 }
 .section-4-title {
   font-family: "Martian Mono";

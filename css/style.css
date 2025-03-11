@@ -59,10 +59,13 @@
   gap: 12px;
   margin-top: 20px;
 }
+.persons {
+  width: 110px;
+}
 .persons img {
   border-radius: 50%;
   border: 1.5px solid #ffffff;
-  margin-left: -10px;
+  margin-left: -15px;
 }
 .persons img:first-child {
   margin-left: 0;
@@ -73,6 +76,7 @@
 .section-1-right img {
   border-radius: 5px;
   z-index: 2;
+  position: relative;
 }
 
 /* section-2 styles */
@@ -178,7 +182,9 @@
   border-radius: 4px;
   width: 40px;
   height: 40px;
-  padding: 8.5px 13.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 24px;
 }
 .wrap img {
@@ -294,12 +300,11 @@ footer {
   justify-content: space-between;
   padding: 24px 0;
   max-width: 1170px;
-  margin: 0 auto;
+  margin: 64px auto 0;
   border-top: 1px solid #e6e1df;
-  margin-top: 64px;
 }
-.copy h6 {
-    color: white;
+.copy h6, .footer-join {
+    color: white !important;
 }
 .social {
   display: flex;
